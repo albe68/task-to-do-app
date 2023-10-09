@@ -9,10 +9,9 @@ export const getAllTasks = async () => {
 };
 
 export const addTask = async (addData) => {
-    const response = await api.post(`${END_POINTS.ADD_TASK}`, addData);
+  const response = await api.post(`${END_POINTS.ADD_TASK}`, addData);
 
-    return response;
-  
+  return response;
 };
 
 export const editTask = async (taskId, updated) => {
@@ -24,5 +23,5 @@ export const editTask = async (taskId, updated) => {
 };
 
 export const deleteTask = async (taskId) => {
-  const response = await api.delete(`${END_POINTS.DELETE_TASK}/${taskId}`);
+  await api.delete(`${END_POINTS.DELETE_TASK}/${taskId}`);
 };

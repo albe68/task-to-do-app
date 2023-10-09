@@ -16,7 +16,7 @@
 ## Getting Started
 
 - Clone the repo locally `$ git clone https://github.com/albe68/task-to-do-app.git`.
-- Set-up a .env file refering to .example.env in the same directory where example .env is located.
+- Create a new `.env` file refering to `.env.example` in the same directory where` example.env` is located.
 - CD to `$ cd server`  && Run `$ npm install` and start the server by `$ npm start` 
 - CD to `$ cd client`  && Run `$ npm install` to start client server `$ npm start`
 - Open your browser and hit `http://localhost:5173/` OR Url shown in vite terminal.
@@ -31,7 +31,7 @@
 - User friendly experience.
 - Data Validation across server and client side.
 - Integration of Back-end and Front-end in different ports.
-- Server side API Testing
+- Server-side API Testing
 
 
 
