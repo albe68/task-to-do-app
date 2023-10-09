@@ -11,3 +11,9 @@ connectToDb();
 expresConfig(app);
 routes(app);
 serverConfig(server);
+app.use((err, req, res, next) => {
+  console.log("error occured");
+  res.status(500).json({
+    messaage: "Something went wrong",
+  });
+});
