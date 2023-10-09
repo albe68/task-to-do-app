@@ -17,21 +17,39 @@
 
 - Clone the repo locally `$ git clone https://github.com/albe68/task-to-do-app.git`.
 - Create a new `.env` file refering to `.env.example` in the same directory where` example.env` is located.
-- CD to `$ cd server`  && Run `$ npm install` and start the server by `$ npm start` 
+- CD (Change Directory) to `$ cd server`  && Run `$ npm install` and start the server by `$ npm start` 
 - CD to `$ cd client`  && Run `$ npm install` to start client server `$ npm start`
 - Open your browser and hit `http://localhost:5173/` OR Url shown in vite terminal.
+
+## Bonus
+
+- [x] - Completed Unit testing across server side API. (Completed)
+- [x] - Pagination in tasks in client-side. (Completed)
+
+## Testing
+
+- Change Directory to `server` run on terminal `npx jest --experimental-modules`
 
 ## Usage 
  - Use input field to Add Tasks.
  - Edit button to edit the tasks && Delete button to delete the tasks.
+ - Use pagination button to browse paginated tasks.
+ - Test server API using Jest testing environment.
 
 ## Features
-- View, Add, Delete, Update Tasks.
-- Well organized, clean and maintained code.
-- User friendly experience.
-- Data Validation across server and client side.
-- Integration of Back-end and Front-end in different ports.
-- Server-side API Testing
+- [x]  View, Add, Delete, Update Tasks.
+- [x]  Well organized, clean and maintained code.
+- [x]  User friendly experience.
+- [x]  Data Validation across server and client side.
+- [x] Integration of Back-end and Front-end in different ports.
+- [x]  Server-side API Testing
+
+
+
+
+
+
+
 
 
 
