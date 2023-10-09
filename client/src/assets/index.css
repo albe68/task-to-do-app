@@ -1,0 +1,106 @@
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color:antiquewhite;
+  border-radius: 10px;
+
+  font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .input{
+    max-width: 100px;
+  }
+  .form-container{
+    background-color: white;
+    display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 1rem;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+
+  }
+  .error-message{
+    color: red;
+  }
+  button {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    
+  }
+  
+  .title-field,
+  .description-field{
+    height: 40px;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+
+  }
+
+  .edit-input-title,
+  .edit-input-description{
+    height: 40px;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .save-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 60px;
+  }
+  
+  .cancel-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-courses{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .indvidual-course{
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .no-tasks{
+    text-align: center;
+    width: 150px;
+    background-color: navajowhite;
+    margin-left: 570px;
+  border-radius: 10px;
+
+  }
